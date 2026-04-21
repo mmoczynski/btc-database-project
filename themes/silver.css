@@ -1,0 +1,42 @@
+/*
+* Matthew Moczynski
+* Programming Final Project
+* Spring 2025 Semester
+* Instructor: Melissa Dix
+*/
+
+body, html {
+    background: grey;
+}
+
+.col.left ul {
+    background: #606060;
+}
+
+input[type="submit"], button, .button {
+    background: #b2b2b2;
+}
+
+select {
+    background: #9c9c9c;
+}
+
+th {
+    background: #707070;
+}
+
+table {
+    background: #626262;
+}
+
+form input {
+    background: #6d6d6d;
+}
+
+.notice {
+    background: #525252;
+}
+
+.col.left ul li a:hover {
+    background: #747474;
+}

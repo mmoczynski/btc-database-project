@@ -1,0 +1,175 @@
+/*
+* Matthew Moczynski
+* Programming Final Project
+* Spring 2025 Semester
+* Instructor: Melissa Dix
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    background: #444;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+/*** Left Bar ***/
+
+.col.left {
+    width: 25%;
+    box-shadow: 0 0 10px black;
+}
+
+.col.left ul {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background: #333;
+}
+
+.col.left ul li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col.left ul li a:hover {
+    background: #222;
+}
+
+.col.left ul li {
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+
+/*** Table ***/
+
+table, tr, td, th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background: #222;
+}
+
+table {
+    width: 100%;
+    background: #333;
+}
+
+.table-container {
+    overflow-x: scroll;
+    width: 100%;
+}
+
+/*** Table [End] ***/
+
+.col.right {
+    width: 75%;
+    padding: 56px;
+}
+
+/*** Forms ***/
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form > * {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+
+form input {
+    background: #333;
+    color: white;
+    font-size: inherit;
+    border: none;
+    padding: 10px;
+}
+
+input[type="submit"], button, .button {
+    border: none;
+    background: #222;
+    color: white;
+    padding: 30px;
+    font-family: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+select {
+    background: #333;
+    border: 0;
+    color: white;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 20px;
+}
+
+span.button {
+    display: inline-block;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons > * {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*** Modified student class ***/
+
+.modified-student {
+    background: darkgreen;
+}
+
+/*** Notices ***/
+
+.notice {
+    background: #222;
+    padding: 30px;
+    margin: 40px 0;
+}
+
+.notice.ok {
+    border-left: 10px solid green;
+}
+
+.notice.err {
+    border-left: 10px solid darkred;
+}
+
+
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
